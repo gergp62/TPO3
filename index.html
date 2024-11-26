@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PFO3_German_Pappalardo</title>
+</head>
+<body>
+    <header>
+        <h1 class="header">German Pappalardo</h1>
+        <h2 class="header">Práctica Formativa Obligatoria 3</h2>
+    </header>
+    <main>
+        <div class="ej1">
+            <h3>1. Calcular el área de un rectángulo</h3>
+            <p>
+                Escribe una función que reciba la longitud y el ancho de un rectángulo y devuelva su área.
+                La funcion no debe devolver un console.log() sino retornar un valor, llamaremos a la funcion dentro de un
+                console.log() .
+                La idea de esto es comprender que algunas funciones retornan un valor y otras simplemente hacen otras cosas, como
+                imprimir un mensaje por consola. Las que retornan algo, deberán incluir la palabra clave return .
+            </p>
+            <p>
+                Ingresa los valores de longitud y ancho del rectángulo a calcular 
+            </p>
+            <span>
+                <label for="base">Base</label>
+                <input type="number" name="base" id="base" value="0">
+            </span>
+            <span>
+                <label for="altura">Altura</label>
+                <input type="number" name="altura" id="altura" value="0">
+            </span>
+            <button type="button" id="calc">Calcular</button>
+            <p class="solucion">Aquí aparecerá el resultado....</p>
+          
+        </div>
+        
+        <div class="ej2">
+            <h3>2. Contar palabras en una cadena</h3>
+            <p>Escribe una función que reciba una cadena de texto (string) y devuelva la cantidad de palabras en la cadena.
+            </p>
+            <span>
+                <label for="cadena">Cadena de Texto</label>
+                <input type="string" name="cadena" id="cadena" placeholder="Ingresa la cadena para contar las palabras">
+            </span>
+            <button type="button" id="palabras">Calcular</button>
+            <p class="solucionCad">Aquí aparecerá el resultado....</p>
+        </div>
+
+        <div class="ej3">
+            <h3>3. Invertir una cadena</h3>
+            <p>Escribe una función que tome una cadena como parámetro y devuelva la cadena invertida.
+            </p>
+            <span>
+                <label for="cadena">Cadena de Texto</label>
+                <input type="string" name="cadInvert" id="cadInvert" placeholder="Ingresa la cadena para invertir">
+            </span>
+            <button type="button" id="palInvert">Calcular</button>
+            <p class="soluInvert">Aquí aparecerá el resultado....</p>
+        </div>
+
+        <div class="ej4">
+            <h3>4. Encontrar el palíndromo</h3>
+            <p>Escribe una función que reciba un string y devuelva true o false si el string es un palíndromo.
+            </p>
+            <span>
+                <label for="cadena">Cadena de Texto</label>
+                <input type="string" name="cadPalin" id="cadPalin" placeholder="Ingresa la cadena para verificar si es un Palíndromo">
+            </span>
+            <button type="button" id="palind">Calcular</button>
+            <p class="soluPalin">Aquí aparecerá el resultado....</p>
+        </div>        
+
+        <div class="ej5">
+            <h3>5. Convertir la edad de un perro a años humanos</h3>
+            <p>Escribe una función que tome un valor de un usuario, utilizando una ventana emergente prompt y calcule la edad
+                canina, que equivale a 7 veces la edad humana.
+            </p>
+            
+            <button onclick="calcularEdadCanina()">Calcular Edad Canina</button>
+            
+        </div>
+
+
+    </main>
+    <script defer src="main.js"></script>
+</body>
+</html>
